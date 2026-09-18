@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Bebas Neue", "Inter", sans-serif;
+  --font-body: "Inter", system-ui, sans-serif;
+
+  --color-ink: #0b0c10;
+  --color-surface: #16181d;
+  --color-surface-soft: #1e2129;
+  --color-marquee: #e3b23c;
+  --color-marquee-dim: #b8862c;
+  --color-paper: #f5f3ee;
+  --color-muted: #9ca3af;
+}
+
+body {
+  background-color: var(--color-ink);
+  color: var(--color-paper);
+  font-family: var(--font-body);
+}
+
+.font-display {
+  font-family: var(--font-display);
+  letter-spacing: 0.02em;
+}
+
+/* film-strip perforation border, used on the hero */
+.film-strip {
+  background-image: repeating-linear-gradient(
+    90deg,
+    var(--color-marquee) 0 10px,
+    transparent 10px 24px
+  );
+  height: 6px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-surface-soft);
+  border-radius: 9999px;
+}
