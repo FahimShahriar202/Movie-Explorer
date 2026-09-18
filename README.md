@@ -1,6 +1,6 @@
 # 🎬 MovieExplorer
 
-A responsive movie/show explorer built with React, where you can browse shows, search by title, and view details in a modal — powered by the [TVMaze API](https://www.tvmaze.com/api).
+A responsive movie explorer built with React, where you can browse shows, search by title and view details in a modal
 
 ## 🔗 Live Demo:  movie-explorer-murex-omega.vercel.app
 
